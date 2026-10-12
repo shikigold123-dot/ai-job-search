@@ -135,6 +135,10 @@ This runs the full workflow: evaluate fit, draft CV + cover letter, review with 
 
 Postings are treated as untrusted input (the workflow follows no instructions embedded in them and fetches no links from their body), but agentic defenses are instruction-level, not a sandbox - on an unfamiliar job board, skim what was fetched and written before you hit send. Details in [SECURITY.md](SECURITY.md).
 
+### Optional: CareerOps companion
+
+This fork includes [CareerOps](CAREER_OPS.md) as an isolated Git submodule. It provides a broader, Codex-native career operations pipeline while keeping this repository's existing workflows unchanged. Use it from the `career-ops/` directory when you want its scanner, tracker, dashboard, follow-up, interview, or offer-stage workflows.
+
 ## Other commands
 
 `/setup`, `/scrape`, and `/apply` form the core workflow. Ten more commands extend it once your profile is in place:
